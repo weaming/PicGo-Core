@@ -6,6 +6,7 @@ import qiniuUploader from './qiniu'
 import imgurUploader from './imgur'
 import aliYunUploader from './aliyun'
 import upYunUploader from './upyun'
+import photoBoxUploader from './photobox'
 
 export default (ctx: PicGo): void => {
   ctx.helper.uploader.register('smms', SMMSUploader)
@@ -15,4 +16,5 @@ export default (ctx: PicGo): void => {
   ctx.helper.uploader.register('imgur', imgurUploader)
   ctx.helper.uploader.register('aliyun', aliYunUploader)
   ctx.helper.uploader.register('upyun', upYunUploader)
+  ctx.helper.uploader.register('photobox', photoBoxUploader)
 }
