@@ -1,5 +1,5 @@
 {
-  "name": "picgo",
+  "name": "@weaming/picgo",
   "version": "1.4.9",
   "description": "A tool for picture uploading",
   "main": "dist/src/index.js",
